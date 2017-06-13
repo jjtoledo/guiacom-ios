@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (3.4.1)
+  - AlamofireImage (2.4.0):
+    - Alamofire (~> 3.3)
+  - ImageSlideshow (0.5.0):
+    - ImageSlideshow/Core (= 0.5.0)
+  - ImageSlideshow/Alamofire (0.5.0):
+    - AlamofireImage (~> 2.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (0.5.0)
+  - SwiftSpinner (0.9.5)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - AlamofireImage (~> 2.0)
+  - ImageSlideshow (~> 0.5)
+  - ImageSlideshow/Alamofire
+  - SwiftSpinner
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  AlamofireImage: 87408b652e0f5ae5fe364035f15aea8b9b24c77e
+  ImageSlideshow: b2662127d093a42d9595a6b40af2817d064df251
+  SwiftSpinner: c6585a0ae5c67eb33e737695cce88f0262008cce
+
+PODFILE CHECKSUM: fc145252b556a506484f51e96b329cd2b0751403
+
+COCOAPODS: 1.1.1

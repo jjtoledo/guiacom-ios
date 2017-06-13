@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		820C15911D1DCB3C00D38362 /* Estado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820C15901D1DCB3C00D38362 /* Estado.swift */; };
+		820C15931D1DD22000D38362 /* Cidade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820C15921D1DD22000D38362 /* Cidade.swift */; };
+		8214EF211D13186100F42829 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214EF201D13186100F42829 /* SwiftyJSON.swift */; };
+		8214EF251D13475900F42829 /* ContatoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214EF241D13475900F42829 /* ContatoVC.swift */; };
+		8214EF271D1347E200F42829 /* DetalhesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214EF261D1347E200F42829 /* DetalhesVC.swift */; };
+		8214EF291D1347F800F42829 /* DetalhesPremiumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214EF281D1347F800F42829 /* DetalhesPremiumVC.swift */; };
+		821C20961E1C4E6000D83160 /* Foto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C20951E1C4E5F00D83160 /* Foto.swift */; };
+		821C20981E1C4EAD00D83160 /* Detalhe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C20971E1C4EAD00D83160 /* Detalhe.swift */; };
+		821C209A1E1C5D9000D83160 /* DetalhesCidadeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C20991E1C5D9000D83160 /* DetalhesCidadeVC.swift */; };
+		825507F91D088D5500B66774 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825507F81D088D5500B66774 /* CheckBox.swift */; };
+		827E1D091D1C759B00B58C0F /* EmpresaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827E1D081D1C759B00B58C0F /* EmpresaCell.swift */; };
+		827E1D0B1D1C7AC600B58C0F /* SegmentoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827E1D0A1D1C7AC600B58C0F /* SegmentoCell.swift */; };
+		827E1D0D1D1C84E000B58C0F /* Segmento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827E1D0C1D1C84E000B58C0F /* Segmento.swift */; };
+		827E1D0F1D1C8FCC00B58C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 827E1D0E1D1C8FCC00B58C0F /* Main.storyboard */; };
+		827E1D111D1CB03600B58C0F /* EmpresaSegCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827E1D101D1CB03600B58C0F /* EmpresaSegCell.swift */; };
+		8286393B1D25921200E58A59 /* AKMaskField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828639341D25921200E58A59 /* AKMaskField.swift */; };
+		8286393C1D25921200E58A59 /* AKMaskFieldBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828639351D25921200E58A59 /* AKMaskFieldBlock.swift */; };
+		8286393D1D25921200E58A59 /* AKMaskFieldBlockChars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828639361D25921200E58A59 /* AKMaskFieldBlockChars.swift */; };
+		8286393E1D25921200E58A59 /* AKMaskFieldBrackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828639371D25921200E58A59 /* AKMaskFieldBrackets.swift */; };
+		8286393F1D25921200E58A59 /* AKMaskFieldEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828639381D25921200E58A59 /* AKMaskFieldEvent.swift */; };
+		828639401D25921200E58A59 /* AKMaskFieldStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828639391D25921200E58A59 /* AKMaskFieldStatus.swift */; };
+		828639411D25921200E58A59 /* AKMaskFieldUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8286393A1D25921200E58A59 /* AKMaskFieldUtility.swift */; };
+		82B168F61D0CEB26009D3AFC /* SegmentosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B168F51D0CEB26009D3AFC /* SegmentosVC.swift */; };
+		82B807231D2EA49100A89094 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B807221D2EA49100A89094 /* MapKit.framework */; };
+		82BF73BE1CFD0216007FFC1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF73BD1CFD0216007FFC1A /* AppDelegate.swift */; };
+		82BF73C01CFD0216007FFC1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF73BF1CFD0216007FFC1A /* ViewController.swift */; };
+		82BF73C51CFD0216007FFC1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BF73C41CFD0216007FFC1A /* Assets.xcassets */; };
+		82BF73C81CFD0216007FFC1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BF73C61CFD0216007FFC1A /* LaunchScreen.storyboard */; };
+		82CD5C7B1D1A019400CE9652 /* Empresa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD5C7A1D1A019400CE9652 /* Empresa.swift */; };
+		82EC3ACA1D04ABA7006BB94E /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EC3AC91D04ABA7006BB94E /* CadastroViewController.swift */; };
+		82EC3ACC1D04BB39006BB94E /* PesquisaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EC3ACB1D04BB39006BB94E /* PesquisaVC.swift */; };
+		82EC3ACE1D04BEBE006BB94E /* SobreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EC3ACD1D04BEBE006BB94E /* SobreVC.swift */; };
+		82EF29E51D0E057000EF468D /* EmpresasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF29E41D0E057000EF468D /* EmpresasVC.swift */; };
+		E6A9131FE4EF31ABAEA1F66D /* Pods_Guiacom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1FBA4CC140A72B55874C6B8 /* Pods_Guiacom.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72BD9B09998E107C992F24E2 /* Pods-Guiacom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guiacom.release.xcconfig"; path = "Pods/Target Support Files/Pods-Guiacom/Pods-Guiacom.release.xcconfig"; sourceTree = "<group>"; };
+		820C15901D1DCB3C00D38362 /* Estado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Estado.swift; sourceTree = "<group>"; };
+		820C15921D1DD22000D38362 /* Cidade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cidade.swift; sourceTree = "<group>"; };
+		8214EF201D13186100F42829 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		8214EF241D13475900F42829 /* ContatoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContatoVC.swift; sourceTree = "<group>"; };
+		8214EF261D1347E200F42829 /* DetalhesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesVC.swift; sourceTree = "<group>"; };
+		8214EF281D1347F800F42829 /* DetalhesPremiumVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesPremiumVC.swift; sourceTree = "<group>"; };
+		821C20951E1C4E5F00D83160 /* Foto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foto.swift; sourceTree = "<group>"; };
+		821C20971E1C4EAD00D83160 /* Detalhe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detalhe.swift; sourceTree = "<group>"; };
+		821C20991E1C5D9000D83160 /* DetalhesCidadeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesCidadeVC.swift; sourceTree = "<group>"; };
+		825507F81D088D5500B66774 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		827E1D081D1C759B00B58C0F /* EmpresaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmpresaCell.swift; sourceTree = "<group>"; };
+		827E1D0A1D1C7AC600B58C0F /* SegmentoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentoCell.swift; sourceTree = "<group>"; };
+		827E1D0C1D1C84E000B58C0F /* Segmento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Segmento.swift; sourceTree = "<group>"; };
+		827E1D0E1D1C8FCC00B58C0F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		827E1D101D1CB03600B58C0F /* EmpresaSegCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmpresaSegCell.swift; sourceTree = "<group>"; };
+		828639341D25921200E58A59 /* AKMaskField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKMaskField.swift; sourceTree = "<group>"; };
+		828639351D25921200E58A59 /* AKMaskFieldBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKMaskFieldBlock.swift; sourceTree = "<group>"; };
+		828639361D25921200E58A59 /* AKMaskFieldBlockChars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKMaskFieldBlockChars.swift; sourceTree = "<group>"; };
+		828639371D25921200E58A59 /* AKMaskFieldBrackets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKMaskFieldBrackets.swift; sourceTree = "<group>"; };
+		828639381D25921200E58A59 /* AKMaskFieldEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKMaskFieldEvent.swift; sourceTree = "<group>"; };
+		828639391D25921200E58A59 /* AKMaskFieldStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKMaskFieldStatus.swift; sourceTree = "<group>"; };
+		8286393A1D25921200E58A59 /* AKMaskFieldUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKMaskFieldUtility.swift; sourceTree = "<group>"; };
+		82B168F51D0CEB26009D3AFC /* SegmentosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentosVC.swift; sourceTree = "<group>"; };
+		82B807221D2EA49100A89094 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		82BF73BA1CFD0216007FFC1A /* Guiacom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guiacom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BF73BD1CFD0216007FFC1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82BF73BF1CFD0216007FFC1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82BF73C41CFD0216007FFC1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82BF73C71CFD0216007FFC1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82BF73C91CFD0216007FFC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CD5C7A1D1A019400CE9652 /* Empresa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Empresa.swift; sourceTree = "<group>"; };
+		82EC3AC91D04ABA7006BB94E /* CadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		82EC3ACB1D04BB39006BB94E /* PesquisaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PesquisaVC.swift; sourceTree = "<group>"; };
+		82EC3ACD1D04BEBE006BB94E /* SobreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SobreVC.swift; sourceTree = "<group>"; };
+		82EF29E41D0E057000EF468D /* EmpresasVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmpresasVC.swift; sourceTree = "<group>"; };
+		E1FBA4CC140A72B55874C6B8 /* Pods_Guiacom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guiacom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84494B1CE62EF268D17B660 /* Pods-Guiacom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guiacom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Guiacom/Pods-Guiacom.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82BF73B71CFD0216007FFC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B807231D2EA49100A89094 /* MapKit.framework in Frameworks */,
+				E6A9131FE4EF31ABAEA1F66D /* Pods_Guiacom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AD7E17668DE5C9717E53D90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82B807221D2EA49100A89094 /* MapKit.framework */,
+				E1FBA4CC140A72B55874C6B8 /* Pods_Guiacom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		828639331D25921200E58A59 /* AKMaskField */ = {
+			isa = PBXGroup;
+			children = (
+				828639341D25921200E58A59 /* AKMaskField.swift */,
+				828639351D25921200E58A59 /* AKMaskFieldBlock.swift */,
+				828639361D25921200E58A59 /* AKMaskFieldBlockChars.swift */,
+				828639371D25921200E58A59 /* AKMaskFieldBrackets.swift */,
+				828639381D25921200E58A59 /* AKMaskFieldEvent.swift */,
+				828639391D25921200E58A59 /* AKMaskFieldStatus.swift */,
+				8286393A1D25921200E58A59 /* AKMaskFieldUtility.swift */,
+			);
+			path = AKMaskField;
+			sourceTree = "<group>";
+		};
+		82BF73B11CFD0216007FFC1A = {
+			isa = PBXGroup;
+			children = (
+				82BF73BC1CFD0216007FFC1A /* Guiacom */,
+				82BF73BB1CFD0216007FFC1A /* Products */,
+				F3736471B457CEDD76E2A6A1 /* Pods */,
+				0AD7E17668DE5C9717E53D90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82BF73BB1CFD0216007FFC1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82BF73BA1CFD0216007FFC1A /* Guiacom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82BF73BC1CFD0216007FFC1A /* Guiacom */ = {
+			isa = PBXGroup;
+			children = (
+				82BF73BD1CFD0216007FFC1A /* AppDelegate.swift */,
+				82BF73C91CFD0216007FFC1A /* Info.plist */,
+				82BF73C41CFD0216007FFC1A /* Assets.xcassets */,
+				82BF73C61CFD0216007FFC1A /* LaunchScreen.storyboard */,
+				827E1D0E1D1C8FCC00B58C0F /* Main.storyboard */,
+				828639331D25921200E58A59 /* AKMaskField */,
+				8214EF201D13186100F42829 /* SwiftyJSON.swift */,
+				82BF73BF1CFD0216007FFC1A /* ViewController.swift */,
+				82EC3AC91D04ABA7006BB94E /* CadastroViewController.swift */,
+				8214EF261D1347E200F42829 /* DetalhesVC.swift */,
+				8214EF281D1347F800F42829 /* DetalhesPremiumVC.swift */,
+				821C20991E1C5D9000D83160 /* DetalhesCidadeVC.swift */,
+				8214EF241D13475900F42829 /* ContatoVC.swift */,
+				82EC3ACD1D04BEBE006BB94E /* SobreVC.swift */,
+				82EC3ACB1D04BB39006BB94E /* PesquisaVC.swift */,
+				82B168F51D0CEB26009D3AFC /* SegmentosVC.swift */,
+				82EF29E41D0E057000EF468D /* EmpresasVC.swift */,
+				827E1D101D1CB03600B58C0F /* EmpresaSegCell.swift */,
+				827E1D0A1D1C7AC600B58C0F /* SegmentoCell.swift */,
+				827E1D081D1C759B00B58C0F /* EmpresaCell.swift */,
+				825507F81D088D5500B66774 /* CheckBox.swift */,
+				820C15921D1DD22000D38362 /* Cidade.swift */,
+				820C15901D1DCB3C00D38362 /* Estado.swift */,
+				82CD5C7A1D1A019400CE9652 /* Empresa.swift */,
+				827E1D0C1D1C84E000B58C0F /* Segmento.swift */,
+				821C20951E1C4E5F00D83160 /* Foto.swift */,
+				821C20971E1C4EAD00D83160 /* Detalhe.swift */,
+			);
+			path = Guiacom;
+			sourceTree = "<group>";
+		};
+		F3736471B457CEDD76E2A6A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F84494B1CE62EF268D17B660 /* Pods-Guiacom.debug.xcconfig */,
+				72BD9B09998E107C992F24E2 /* Pods-Guiacom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82BF73B91CFD0216007FFC1A /* Guiacom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BF73CC1CFD0216007FFC1A /* Build configuration list for PBXNativeTarget "Guiacom" */;
+			buildPhases = (
+				D439AD339B7217CE940C371D /* [CP] Check Pods Manifest.lock */,
+				82BF73B61CFD0216007FFC1A /* Sources */,
+				82BF73B71CFD0216007FFC1A /* Frameworks */,
+				82BF73B81CFD0216007FFC1A /* Resources */,
+				E2A9C4A7B1F451E791C760B1 /* [CP] Embed Pods Frameworks */,
+				3F7030DC5C533B70BFFDEC21 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guiacom;
+			productName = Guiacom;
+			productReference = 82BF73BA1CFD0216007FFC1A /* Guiacom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82BF73B21CFD0216007FFC1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Guiacom Manhuaçu";
+				TargetAttributes = {
+					82BF73B91CFD0216007FFC1A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8M6EL3JT6N;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 82BF73B51CFD0216007FFC1A /* Build configuration list for PBXProject "Guiacom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82BF73B11CFD0216007FFC1A;
+			productRefGroup = 82BF73BB1CFD0216007FFC1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82BF73B91CFD0216007FFC1A /* Guiacom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82BF73B81CFD0216007FFC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827E1D0F1D1C8FCC00B58C0F /* Main.storyboard in Resources */,
+				82BF73C81CFD0216007FFC1A /* LaunchScreen.storyboard in Resources */,
+				82BF73C51CFD0216007FFC1A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F7030DC5C533B70BFFDEC21 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Guiacom/Pods-Guiacom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D439AD339B7217CE940C371D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2A9C4A7B1F451E791C760B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Guiacom/Pods-Guiacom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82BF73B61CFD0216007FFC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8214EF291D1347F800F42829 /* DetalhesPremiumVC.swift in Sources */,
+				8214EF271D1347E200F42829 /* DetalhesVC.swift in Sources */,
+				8286393D1D25921200E58A59 /* AKMaskFieldBlockChars.swift in Sources */,
+				82EC3ACE1D04BEBE006BB94E /* SobreVC.swift in Sources */,
+				827E1D111D1CB03600B58C0F /* EmpresaSegCell.swift in Sources */,
+				8286393C1D25921200E58A59 /* AKMaskFieldBlock.swift in Sources */,
+				8286393B1D25921200E58A59 /* AKMaskField.swift in Sources */,
+				82BF73C01CFD0216007FFC1A /* ViewController.swift in Sources */,
+				820C15911D1DCB3C00D38362 /* Estado.swift in Sources */,
+				827E1D0B1D1C7AC600B58C0F /* SegmentoCell.swift in Sources */,
+				821C209A1E1C5D9000D83160 /* DetalhesCidadeVC.swift in Sources */,
+				82B168F61D0CEB26009D3AFC /* SegmentosVC.swift in Sources */,
+				825507F91D088D5500B66774 /* CheckBox.swift in Sources */,
+				82EC3ACA1D04ABA7006BB94E /* CadastroViewController.swift in Sources */,
+				82BF73BE1CFD0216007FFC1A /* AppDelegate.swift in Sources */,
+				8286393E1D25921200E58A59 /* AKMaskFieldBrackets.swift in Sources */,
+				8286393F1D25921200E58A59 /* AKMaskFieldEvent.swift in Sources */,
+				828639401D25921200E58A59 /* AKMaskFieldStatus.swift in Sources */,
+				8214EF211D13186100F42829 /* SwiftyJSON.swift in Sources */,
+				82CD5C7B1D1A019400CE9652 /* Empresa.swift in Sources */,
+				828639411D25921200E58A59 /* AKMaskFieldUtility.swift in Sources */,
+				827E1D0D1D1C84E000B58C0F /* Segmento.swift in Sources */,
+				820C15931D1DD22000D38362 /* Cidade.swift in Sources */,
+				8214EF251D13475900F42829 /* ContatoVC.swift in Sources */,
+				821C20961E1C4E6000D83160 /* Foto.swift in Sources */,
+				827E1D091D1C759B00B58C0F /* EmpresaCell.swift in Sources */,
+				82EC3ACC1D04BB39006BB94E /* PesquisaVC.swift in Sources */,
+				82EF29E51D0E057000EF468D /* EmpresasVC.swift in Sources */,
+				821C20981E1C4EAD00D83160 /* Detalhe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82BF73C61CFD0216007FFC1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82BF73C71CFD0216007FFC1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82BF73CA1CFD0216007FFC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82BF73CB1CFD0216007FFC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82BF73CD1CFD0216007FFC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F84494B1CE62EF268D17B660 /* Pods-Guiacom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				INFOPLIST_FILE = Guiacom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jose.guiacom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f70a9410-269d-4638-88c1-796e24bddb97";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		82BF73CE1CFD0216007FFC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72BD9B09998E107C992F24E2 /* Pods-Guiacom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Fernando Marcio de Albuquerque (8M6EL3JT6N)";
+				INFOPLIST_FILE = Guiacom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jose.guiacom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f70a9410-269d-4638-88c1-796e24bddb97";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82BF73B51CFD0216007FFC1A /* Build configuration list for PBXProject "Guiacom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BF73CA1CFD0216007FFC1A /* Debug */,
+				82BF73CB1CFD0216007FFC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BF73CC1CFD0216007FFC1A /* Build configuration list for PBXNativeTarget "Guiacom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BF73CD1CFD0216007FFC1A /* Debug */,
+				82BF73CE1CFD0216007FFC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82BF73B21CFD0216007FFC1A /* Project object */;
+}
